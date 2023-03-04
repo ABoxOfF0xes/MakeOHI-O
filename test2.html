@@ -6,30 +6,6 @@
 
     <link rel="stylesheet" href="slay.css">
  
- <!---   <style>
-        #content {
-            display: block;
-        }
-
-        .internal {
-            display: block;
-        }
-        .header {
-            padding: 28px;
-            text-align: center;
-            margin: 0 auto;
-            background: #ffc8dd;
-            color: #000000;
-            font-size: 30px;
-        }
-        .videoPlay {
-            width: 100%;
-            margin: 0 auto;
-            text-align: center;
-        }
-
-    </style> 
--->
     <title>{{ makeio }}</title>
 </head>
 
@@ -38,22 +14,12 @@
         <h1>Current Status</h1>
     </div>
     <label class="button button1">
-        <input type = "file" id="input" name = "input_video">
+        <input type="file" id="input" name="input_video">
         File Upload
     </label>
     
-    <!--<input type="file"
-        id = "input" name = "input_video"
-        accept = "video/*">
-    -->    <video id="video" width = "900" height = "600" controls ></video>
-    <script>document.getElementById("input").addEventListener("change", function() {
-        var media = URL.createObjectURL(this.files[0]);
-        var video = document.getElementById("video");
-        video.src = media;
-        video.style.display = "videoPlay";
-        video.play();
-    });
-    </script>
+    <video id="video" width = "900" height = "600" controls ></video>
+    <script src="video_overlay.js"></script>
     
     
     <button class="button button1">Slay</button>
