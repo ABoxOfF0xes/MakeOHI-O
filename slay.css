@@ -41,6 +41,8 @@ label {
     cursor: pointer;
   }
   .button1{
+    left: 80px;
+    top: 450px;
     background-color: white;
     color: black;
     border: 2px solid #cdb4db;
@@ -51,4 +53,16 @@ label {
   }
   input[type="file"] {
     display: none;
+}
+.button2{
+    position: absolute;
+    right: 80px;
+    top: 450px;
+    background-color: white;
+    color: black;
+    border: 2px solid #cdb4db;
+}
+.button2:hover {
+    background-color: #cdb4db;
+    color: white;
 }

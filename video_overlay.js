@@ -3,6 +3,7 @@ document.getElementById("input").addEventListener("change", function() {
     var video = document.getElementById("video");
     video.src = media;
     video.style.display = "videoPlay";
+    video.play();
 });
 
 const processor = {
