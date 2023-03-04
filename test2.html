@@ -37,10 +37,15 @@
     <div class="header">
         <h1>Current Status</h1>
     </div>
-    <input type="file"
+    <label class="button button1">
+        <input type = "file" id="input" name = "input_video">
+        File Upload
+    </label>
+    
+    <!--<input type="file"
         id = "input" name = "input_video"
         accept = "video/*">
-        <video id="video" width = "900" height = "600" controls ></video>
+    -->    <video id="video" width = "900" height = "600" controls ></video>
     <script>document.getElementById("input").addEventListener("change", function() {
         var media = URL.createObjectURL(this.files[0]);
         var video = document.getElementById("video");
@@ -51,7 +56,7 @@
     </script>
     
     
-    <button>Slay</button>
+    <button class="button button1">Slay</button>
 </body>
 
 </html>
