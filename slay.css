@@ -1,0 +1,20 @@
+#content {
+    display: block;
+}
+
+.internal {
+    display: block;
+}
+.header {
+    padding: 28px;
+    text-align: center;
+    margin: 0 auto;
+    background: #ffc8dd;
+    color: #000000;
+    font-size: 30px;
+}
+.videoPlay {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
